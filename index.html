@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ansar Abbas Hadi — Senior Performance Marketer & Growth Specialist</title>
+  <meta name="description" content="Official Portfolio of Ansar Abbas Hadi. 3+ Years Experience in Meta Ads Strategy, E-Commerce Operations, GoHighLevel Funnel Automation, and Digital Acquisition." />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter (Clean, Modern, Executive) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom Configuration (Light Luxury Executive Palette) -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#F5F3FF',
+              100: '#EDE9FE',
+              200: '#DDD6FE',
+              500: '#6366F1',
+              600: '#4F46E5',
+              700: '#4338CA',
+              dark: '#0F172A',
+              slate: '#1E293B',
+              muted: '#64748B',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #FAFAFC;
+      color: #0F172A;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Ambient Soft Pearl Lighting */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background:
+        radial-gradient(circle at 10% 10%, rgba(99, 102, 241, 0.06) 0%, transparent 45%),
+        radial-gradient(circle at 90% 40%, rgba(16, 185, 129, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(245, 158, 11, 0.04) 0%, transparent 50%);
+    }
+
+    /* High-Definition Luxury Glass Card */
+    .luxury-card {
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -2px rgba(0, 0, 0, 0.02);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .luxury-card:hover {
+      border-color: #CBD5E1;
+      box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.07);
+      transform: translateY(-4px);
+    }
+
+    /* Interactive Experience Badge */
+    .exp-pill {
+      background: #F1F5F9;
+      border: 1px solid #E2E8F0;
+      color: #334155;
+      transition: all 0.2s ease;
+    }
+    .exp-pill:hover {
+      background: #EEF2FF;
+      border-color: #C7D2FE;
+      color: #4F46E5;
+    }
+
+    /* Primary Gradient Button */
+    .primary-cta {
+      background: linear-gradient(135deg, #4F46E5 0%, #4338CA 100%);
+      box-shadow: 0 8px 20px -4px rgba(79, 70, 229, 0.35);
+      transition: all 0.25s ease;
+    }
+    .primary-cta:hover {
+      background: linear-gradient(135deg, #4338CA 0%, #3730A3 100%);
+      box-shadow: 0 12px 24px -4px rgba(79, 70, 229, 0.5);
+      transform: translateY(-2px);
+    }
+
+    /* Smooth Navbar */
+    .nav-blur {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid #E2E8F0;
+    }
+
+    .nav-item {
+      position: relative;
+      padding-bottom: 4px;
+      transition: color 0.2s ease;
+    }
+    .nav-item::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: 100%;
+      height: 2px;
+      border-radius: 2px;
+      background: #4F46E5;
+      transition: right 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .nav-item:hover::after, .nav-item.active::after {
+      right: 0;
+    }
+
+    /* Clean Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F1F5F9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #CBD5E1;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #4F46E5;
+    }
+  </style>
+</head>
+
+<body class="selection:bg-indigo-600 selection:text-white">
+
+  <!-- ================= ISOLATED CLEAN TOAST ================= -->
+  <div id="toast" class="fixed bottom-8 right-8 z-[100] hidden opacity-0 transition-all duration-300 bg-slate-900 text-white px-5 py-3.5 rounded-2xl flex items-center gap-3 shadow-2xl border border-slate-700">
+    <div class="w-7 h-7 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs font-bold">
+      <i class="fa-solid fa-check"></i>
+    </div>
+    <span id="toast-message" class="text-xs font-semibold text-slate-100">Copied to clipboard!</span>
+  </div>
+
+  <!-- ================= UNIFIED EXECUTIVE NAVBAR ================= -->
+  <header class="sticky top-0 z-50 nav-blur transition-all">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      
+      <!-- Identity Logo -->
+      <a href="#" class="flex items-center gap-3.5 group">
+        <div class="relative w-12 h-12 rounded-full overflow-hidden border-2 border-indigo-600 shadow-sm group-hover:scale-105 transition-transform">
+          <img src="assets/profile-circle.jpg" alt="Ansar Abbas Hadi" class="w-full h-full object-cover" onerror="this.src='assets/profile-square.jpg'" />
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <span class="font-extrabold text-lg text-slate-900 tracking-tight">Ansar Abbas Hadi</span>
+            <i class="fa-solid fa-circle-check text-indigo-600 text-xs" title="Verified Background"></i>
+          </div>
+          <div class="flex items-center gap-2 text-xs text-slate-500 font-medium">
+            <span class="flex h-2 w-2 relative">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <span class="text-emerald-600 font-semibold">Available for Roles</span>
+            <span>•</span>
+            <span>Paid Growth Specialist</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-600">
+        <a href="#about" class="nav-item hover:text-indigo-600 transition-colors">Overview</a>
+        <a href="#pillars" class="nav-item hover:text-indigo-600 transition-colors">Core Expertise</a>
+        <a href="#experience" class="nav-item hover:text-indigo-600 transition-colors">Work Experience</a>
+        <a href="#framework" class="nav-item hover:text-indigo-600 transition-colors">Methodology</a>
+        <a href="#credentials" class="nav-item hover:text-indigo-600 transition-colors">Credentials</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/923260512817" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-700 font-semibold text-xs transition-all">
+          <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Direct
+        </a>
+        <a href="#contact" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl primary-cta text-white font-bold text-xs uppercase tracking-wider">
+          <i class="fa-solid fa-paper-plane"></i> Contact Me
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="relative z-10">
+
+    <!-- ================= EXECUTIVE HERO SECTION ================= -->
+    <section id="about" class="py-16 sm:py-24 px-6">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Authority Introduction -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs font-semibold">
+            <i class="fa-brands fa-meta text-indigo-600"></i>
+            Senior Paid Acquisition & Digital Operations • 3+ Years (2021 – Present)
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.12]">
+            Driving Growth with <span class="text-indigo-600">Strategic Media Buying</span> & Funnel Systems.
+          </h1>
+
+          <p class="text-slate-600 text-base sm:text-lg font-body leading-relaxed max-w-2xl">
+            I help modern businesses and digital brands build sustainable acquisition pipelines. Specializing in <strong>Meta Ads Management (Facebook & Instagram)</strong>, GoHighLevel marketing automations, and multi-channel marketplace operations.
+          </p>
+
+          <!-- Core Competencies Pills -->
+          <div class="flex flex-wrap gap-2 pt-1 justify-center lg:justify-start text-xs font-semibold">
+            <span class="exp-pill px-3 py-1.5 rounded-lg"><i class="fa-brands fa-meta text-indigo-600 mr-1.5"></i> Meta Ads Management</span>
+            <span class="exp-pill px-3 py-1.5 rounded-lg"><i class="fa-solid fa-robot text-indigo-600 mr-1.5"></i> GoHighLevel (GHL) Automation</span>
+            <span class="exp-pill px-3 py-1.5 rounded-lg"><i class="fa-brands fa-whatsapp text-emerald-600 mr-1.5"></i> WhatsApp Lead Conversion</span>
+            <span class="exp-pill px-3 py-1.5 rounded-lg"><i class="fa-brands fa-amazon text-amber-600 mr-1.5"></i> Amazon, eBay & Walmart VA</span>
+            <span class="exp-pill px-3 py-1.5 rounded-lg"><i class="fa-brands fa-telegram text-sky-500 mr-1.5"></i> Telegram Channel Growth</span>
+          </div>
+
+          <!-- Direct Decision Actions -->
+          <div class="flex flex-col sm:flex-row items-center gap-3.5 pt-2 justify-center lg:justify-start">
+            <a href="#experience" class="w-full sm:w-auto px-7 py-3.5 rounded-xl primary-cta text-white font-bold text-sm tracking-wide flex items-center justify-center gap-2">
+              <i class="fa-solid fa-briefcase"></i> Explore Work Experience
+            </a>
+            <a href="https://wa.me/923260512817" target="_blank" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm tracking-wide transition-all shadow-md shadow-emerald-600/20 flex items-center justify-center gap-2">
+              <i class="fa-brands fa-whatsapp text-lg"></i> +92 326 0512817
+            </a>
+            <button onclick="copyToClipboard('ansarabbas8297@gmail.com', 'Email address copied!')" class="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-semibold text-sm border border-slate-200 shadow-sm transition-all flex items-center justify-center gap-2">
+              <i class="fa-solid fa-copy text-indigo-600"></i> Copy Email
+            </button>
+          </div>
+
+          <!-- Quick Geographic & Educational Trust Info -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs text-slate-500 pt-1 font-medium">
+            <span><i class="fa-solid fa-location-dot text-indigo-600 mr-1"></i> Layyah, Punjab, Pakistan</span>
+            <span>•</span>
+            <span><i class="fa-solid fa-graduation-cap text-indigo-600 mr-1"></i> Bachelor's Degree Completed</span>
+            <span>•</span>
+            <span><i class="fa-solid fa-language text-indigo-600 mr-1"></i> Fluent in English & Urdu</span>
+          </div>
+
+        </div>
+
+        <!-- Right: Executive Profile Card -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="w-full max-w-md luxury-card rounded-3xl p-7 space-y-6">
+            
+            <div class="flex items-center gap-4">
+              <div class="relative w-20 h-20 rounded-2xl overflow-hidden border-2 border-indigo-600 shadow-md">
+                <img src="assets/profile-square.jpg" alt="Ansar Abbas Hadi" class="w-full h-full object-cover" />
+              </div>
+              <div>
+                <div class="flex items-center gap-1.5">
+                  <h3 class="font-extrabold text-xl text-slate-900">Ansar Abbas Hadi</h3>
+                  <i class="fa-solid fa-circle-check text-indigo-600 text-sm"></i>
+                </div>
+                <p class="text-xs text-slate-500 font-medium">Senior Paid Acquisition & Digital Operations</p>
+                <p class="text-xs text-slate-400 mt-1"><i class="fa-solid fa-clock text-emerald-500 mr-1"></i> Active full-time availability</p>
+              </div>
+            </div>
+
+            <!-- Professional Summary Metrics (Focus on Skills & Scope) -->
+            <div class="grid grid-cols-2 gap-3 pt-2">
+              <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                <span class="text-[11px] font-semibold text-slate-500 uppercase block">Media Buying</span>
+                <span class="text-xl font-bold text-slate-900">Meta Specialist</span>
+                <span class="text-[10px] text-indigo-600 font-semibold block mt-0.5">2021 – Present</span>
+              </div>
+              <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                <span class="text-[11px] font-semibold text-slate-500 uppercase block">Education</span>
+                <span class="text-xl font-bold text-slate-900">Bachelor's</span>
+                <span class="text-[10px] text-emerald-600 font-semibold block mt-0.5">Graduated Last Year</span>
+              </div>
+              <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                <span class="text-[11px] font-semibold text-slate-500 uppercase block">E-Commerce VA</span>
+                <span class="text-xl font-bold text-slate-900">Multi-Channel</span>
+                <span class="text-[10px] text-amber-600 font-semibold block mt-0.5">Amazon, eBay & Walmart</span>
+              </div>
+              <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                <span class="text-[11px] font-semibold text-slate-500 uppercase block">Automations</span>
+                <span class="text-xl font-bold text-slate-900">GoHighLevel</span>
+                <span class="text-[10px] text-indigo-600 font-semibold block mt-0.5">AI Bots & WhatsApp</span>
+              </div>
+            </div>
+
+            <!-- Direct Document Triggers -->
+            <div class="pt-2 space-y-2">
+              <button onclick="openResumeModal()" class="w-full py-3 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 border border-indigo-200 transition-all">
+                <i class="fa-solid fa-file-lines text-sm"></i> Inspect Curriculum Vitae (CV)
+              </button>
+              <a href="assets/ads-results-proof.pdf" download class="w-full py-2.5 rounded-xl bg-white hover:bg-slate-50 text-slate-600 font-semibold text-xs border border-slate-200 transition-all flex items-center justify-center gap-2">
+                <i class="fa-solid fa-file-pdf text-red-500"></i> Download Official 42-Page Proof PDF
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= CORE EXPERTISE PILLARS ================= -->
+    <section id="pillars" class="py-20 px-6 bg-slate-100/70 border-y border-slate-200">
+      <div class="max-w-7xl mx-auto space-y-12">
+        
+        <div class="text-center max-w-3xl mx-auto space-y-3">
+          <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-bold uppercase tracking-wider">
+            Capabilities
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Core Areas of Expertise
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base">
+            Hands-on execution across media strategy, digital automation, e-commerce stores, and high-volume acquisition.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Pillar 1: Meta Ads Management -->
+          <div class="luxury-card p-7 rounded-3xl space-y-4">
+            <div class="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-2xl">
+              <i class="fa-brands fa-meta"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Meta Ads Management (Starts From 2021)</h3>
+            <p class="text-xs text-slate-600 leading-relaxed font-body">
+              Deep expertise in Facebook & Instagram Ads Manager. Managing campaigns from creative ideation to audience segmentation, Meta Pixel architecture, lookalike modeling, conversion optimization, budget management, and continuous A/B testing.
+            </p>
+            <div class="pt-2 flex flex-wrap gap-1.5 text-[11px] font-semibold">
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Meta Pixel Setup</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Lead Generation</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Retargeting Matrix</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">A/B Creative Testing</span>
+            </div>
+          </div>
+
+          <!-- Pillar 2: GoHighLevel & AI Funnels -->
+          <div class="luxury-card p-7 rounded-3xl space-y-4">
+            <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">GoHighLevel (GHL) & AI Chatbots</h3>
+            <p class="text-xs text-slate-600 leading-relaxed font-body">
+              Building full-stack conversion funnels in GoHighLevel: High-converting landing pages, interactive surveys, automated email workflows, WhatsApp automation triggers, and AI chatbot integration for instant customer response.
+            </p>
+            <div class="pt-2 flex flex-wrap gap-1.5 text-[11px] font-semibold">
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Landing Pages</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Surveys & Forms</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">WhatsApp Automation</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">AI Chatbots</span>
+            </div>
+          </div>
+
+          <!-- Pillar 3: E-Commerce VA Operations -->
+          <div class="luxury-card p-7 rounded-3xl space-y-4">
+            <div class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center text-2xl">
+              <i class="fa-brands fa-amazon"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">VA: Amazon, eBay & Walmart (2021 – Present)</h3>
+            <p class="text-xs text-slate-600 leading-relaxed font-body">
+              Multi-platform marketplace store operations: Seller account creation, winning product research, keyword-rich SEO listing optimization, and FBA inventory management. Also experienced in Shopify White Label setup.
+            </p>
+            <div class="pt-2 flex flex-wrap gap-1.5 text-[11px] font-semibold">
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Account Creation</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Product Hunting</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">FBA Inventory</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Shopify White Label</span>
+            </div>
+          </div>
+
+          <!-- Pillar 4: Telegram Channel Growth -->
+          <div class="luxury-card p-7 rounded-3xl space-y-4">
+            <div class="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center text-2xl">
+              <i class="fa-brands fa-telegram"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Telegram Channel Promotion</h3>
+            <p class="text-xs text-slate-600 leading-relaxed font-body">
+              Specialized provider of high-retention Telegram group & channel members to promote online businesses, financial websites, VIP signal channels, and Web3 trading communities.
+            </p>
+            <div class="pt-2 flex flex-wrap gap-1.5 text-[11px] font-semibold">
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Group Members</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Channel Subscribers</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Business Promotion</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Trading Signal Funnels</span>
+            </div>
+          </div>
+
+          <!-- Pillar 5: Technical Logic & Machine Learning -->
+          <div class="luxury-card p-7 rounded-3xl space-y-4">
+            <div class="w-12 h-12 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center text-2xl">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Machine Learning & Programming</h3>
+            <p class="text-xs text-slate-600 leading-relaxed font-body">
+              Educated in machine learning principles and computer programming. Applying algorithmic data structuring and statistical audience testing to enhance ad delivery and Meta learning phases.
+            </p>
+            <div class="pt-2 flex flex-wrap gap-1.5 text-[11px] font-semibold">
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">ML Concepts</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Programming Logic</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Algorithmic Testing</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Data Analytics</span>
+            </div>
+          </div>
+
+          <!-- Pillar 6: High-Volume Call Center Lead Operations -->
+          <div class="luxury-card p-7 rounded-3xl space-y-4">
+            <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center text-2xl">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Lead Triage & Call Center Operations</h3>
+            <p class="text-xs text-slate-600 leading-relaxed font-body">
+              Extensive outbound call center experience managing Medicare & Obama Care campaigns. Skilled in real-time customer qualification, compliance adherence, and high-volume lead triage.
+            </p>
+            <div class="pt-2 flex flex-wrap gap-1.5 text-[11px] font-semibold">
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Medicare Campaigns</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Obama Care</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Lead Qualification</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700">Customer Communication</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= CHRONOLOGICAL WORK EXPERIENCE ================= -->
+    <section id="experience" class="py-20 px-6">
+      <div class="max-w-5xl mx-auto space-y-12">
+        
+        <div class="text-center max-w-3xl mx-auto space-y-3">
+          <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-bold uppercase tracking-wider">
+            Career Timeline
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Professional Experience & Milestones
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base">
+            Verified roles, daily responsibilities, and operational scope.
+          </p>
+        </div>
+
+        <div class="relative border-l-2 border-slate-200 ml-4 md:ml-32 space-y-10">
+          
+          <!-- Role 1: Meta Ads & Social Media Manager -->
+          <div class="relative pl-8 md:pl-10">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-indigo-600 shadow-sm"></div>
+            <div class="md:absolute md:-left-32 md:top-1 text-xs font-bold text-indigo-600">2021 – Present</div>
+            
+            <div class="luxury-card p-7 rounded-3xl space-y-3">
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <h3 class="text-xl font-bold text-slate-900">Social Media Manager & Meta Ads Specialist</h3>
+                <span class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold">Active Role</span>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed font-body">
+                Full-funnel campaign strategy and management across Facebook & Instagram for e-commerce brands, hospitality, financial services, and local enterprises:
+              </p>
+              <ul class="space-y-1.5 text-xs text-slate-600 font-body">
+                <li class="flex items-start gap-2">
+                  <i class="fa-solid fa-check text-indigo-600 mt-1"></i>
+                  <span>Audience research, custom audience segmentation, and Lookalike (LAL) modeling.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i class="fa-solid fa-check text-indigo-600 mt-1"></i>
+                  <span>Click-to-WhatsApp (CTWA) conversion funnels delivering high message reply rates.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i class="fa-solid fa-check text-indigo-600 mt-1"></i>
+                  <span>End-to-end Meta Pixel configuration, standard events, and conversion tracking.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i class="fa-solid fa-check text-indigo-600 mt-1"></i>
+                  <span>A/B creative testing (hook variations, video overlays, copy angles) and weekly performance reporting.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Role 2: Marketplace Virtual Assistant -->
+          <div class="relative pl-8 md:pl-10">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-amber-500 shadow-sm"></div>
+            <div class="md:absolute md:-left-32 md:top-1 text-xs font-bold text-amber-600">2021 – Present</div>
+            
+            <div class="luxury-card p-7 rounded-3xl space-y-3">
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <h3 class="text-xl font-bold text-slate-900">VA: Amazon, eBay & Walmart / Shopify White Label</h3>
+                <span class="px-2.5 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-200 text-xs font-bold">Multi-Store</span>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed font-body">
+                Managing day-to-day operations for e-commerce marketplace sellers: Account creation, product searching, keyword-rich SEO product listings, supplier coordination, and FBA inventory management.
+              </p>
+            </div>
+          </div>
+
+          <!-- Role 3: Telegram Promoter -->
+          <div class="relative pl-8 md:pl-10">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-sky-500 shadow-sm"></div>
+            <div class="md:absolute md:-left-32 md:top-1 text-xs font-bold text-sky-600">Ongoing</div>
+            
+            <div class="luxury-card p-7 rounded-3xl space-y-3">
+              <h3 class="text-xl font-bold text-slate-900">Telegram Channel Promoter & Member Provider</h3>
+              <p class="text-xs text-slate-600 leading-relaxed font-body">
+                Providing targeted group & channel members to promote online businesses, websites, crypto signals, and trading communities with active engagement funnels.
+              </p>
+            </div>
+          </div>
+
+          <!-- Role 4: Education -->
+          <div class="relative pl-8 md:pl-10">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-indigo-600 shadow-sm"></div>
+            <div class="md:absolute md:-left-32 md:top-1 text-xs font-bold text-indigo-600">Completed</div>
+            
+            <div class="luxury-card p-7 rounded-3xl space-y-2 border-indigo-100">
+              <div class="flex items-center justify-between">
+                <h3 class="text-xl font-bold text-slate-900">Bachelor's Degree</h3>
+                <span class="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 text-xs font-bold">Graduated</span>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed font-body">
+                Successfully completed Bachelor's degree (graduated last year). Actively broadening technical depth in machine learning, data structures, and computer programming.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= METHODOLOGY & WORK ETHIC ================= -->
+    <section id="framework" class="py-20 px-6 bg-slate-100/70 border-y border-slate-200">
+      <div class="max-w-7xl mx-auto space-y-12">
+        
+        <div class="text-center max-w-3xl mx-auto space-y-3">
+          <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-bold uppercase tracking-wider">
+            Methodology
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            How I Approach Growth & Acquisition
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base">
+            A structured, analytical execution framework designed to protect client budgets and maximize conversion efficiency.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          
+          <div class="luxury-card p-6 rounded-3xl space-y-3">
+            <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 font-extrabold flex items-center justify-center text-sm">
+              01
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">Audience & Offer Research</h4>
+            <p class="text-xs text-slate-600 font-body leading-relaxed">
+              Studying customer psychology, competitor angles, pain points, and offer hooks before committing any ad spend.
+            </p>
+          </div>
+
+          <div class="luxury-card p-6 rounded-3xl space-y-3">
+            <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 font-extrabold flex items-center justify-center text-sm">
+              02
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">Funnel & Pixel Architecture</h4>
+            <p class="text-xs text-slate-600 font-body leading-relaxed">
+              Configuring Meta Pixel standard events, landing page conversion tracking, and smooth Click-to-WhatsApp routing.
+            </p>
+          </div>
+
+          <div class="luxury-card p-6 rounded-3xl space-y-3">
+            <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 font-extrabold flex items-center justify-center text-sm">
+              03
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">Creative & Copy Testing</h4>
+            <p class="text-xs text-slate-600 font-body leading-relaxed">
+              Deploying multi-angle video story ads, mobile feed overlays, and engaging captions to discover the winning CPA threshold.
+            </p>
+          </div>
+
+          <div class="luxury-card p-6 rounded-3xl space-y-3">
+            <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 font-extrabold flex items-center justify-center text-sm">
+              04
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">Scale & Automation</h4>
+            <p class="text-xs text-slate-600 font-body leading-relaxed">
+              Scaling proven ad sets, implementing GoHighLevel / ManyChat automations, and nurturing leads into repeat customers.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= VERIFIED CREDENTIALS & ADS RESULTS GALLERY ================= -->
+    <section id="credentials" class="py-20 px-6">
+      <div class="max-w-7xl mx-auto space-y-12">
+        
+        <div class="text-center max-w-3xl mx-auto space-y-3">
+          <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-bold uppercase tracking-wider">
+            Document Vault & Proofs
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Ads Results Gallery & Official Credentials
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base">
+            Inspect real Meta Ads Manager campaign screenshots, ad creatives, and official CV documentation. Click any result to view in full resolution.
+          </p>
+        </div>
+
+        <!-- Top Section: CV Card & Highlight Summary -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+          
+          <!-- Official CV Card -->
+          <div class="lg:col-span-4 luxury-card p-6 rounded-3xl flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-xl shrink-0">
+                  <i class="fa-solid fa-id-card"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-base">Curriculum Vitae (CV)</h4>
+                  <p class="text-xs text-slate-500">Official verified background document</p>
+                </div>
+              </div>
+              <div class="mt-4 aspect-[4/3] rounded-2xl overflow-hidden bg-slate-50 border border-slate-200 cursor-pointer p-2 flex justify-center group" onclick="openResumeModal()">
+                <img src="assets/resume-scan.jpg" alt="Official CV" class="h-full object-contain group-hover:scale-105 transition-transform" />
+              </div>
+            </div>
+            <div class="space-y-2 pt-2">
+              <button onclick="openResumeModal()" class="w-full py-3 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold text-xs uppercase tracking-wider transition-all">
+                <i class="fa-solid fa-expand mr-1.5"></i> Inspect Full CV Document
+              </button>
+            </div>
+          </div>
+
+          <!-- Ads Gallery Grid -->
+          <div class="lg:col-span-8 luxury-card p-6 sm:p-7 rounded-3xl space-y-5">
+            
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+              <div>
+                <h4 class="font-bold text-slate-900 text-lg">Verified Campaign Receipts & Creative Gallery</h4>
+                <p class="text-xs text-slate-500">Real screenshots from active and completed Meta Ads Manager runs</p>
+              </div>
+              <div class="flex items-center gap-1.5 overflow-x-auto text-xs font-semibold">
+                <button onclick="filterGallery('all')" class="gal-btn px-3 py-1.5 rounded-lg bg-indigo-600 text-white transition-all" data-gal="all">All</button>
+                <button onclick="filterGallery('leads')" class="gal-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-600 hover:text-slate-900 transition-all" data-gal="leads">WhatsApp Leads</button>
+                <button onclick="filterGallery('traffic')" class="gal-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-600 hover:text-slate-900 transition-all" data-gal="traffic">Clicks & Traffic</button>
+                <button onclick="filterGallery('creatives')" class="gal-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-600 hover:text-slate-900 transition-all" data-gal="creatives">Ad Creatives</button>
+                <button onclick="filterGallery('hospitality')" class="gal-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-600 hover:text-slate-900 transition-all" data-gal="hospitality">Hospitality</button>
+              </div>
+            </div>
+
+            <!-- Image Grid of Receipts -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3.5" id="adsGalleryGrid">
+              
+              <!-- 1: Bilal Madni 708 Leads -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="leads" onclick="openProofModal('assets/page_40.jpg', 'Bilal Madni Campaign: 708 WhatsApp Leads @ PKR 15.12 (Total Spent: PKR 10,701.90)')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_40.jpg" alt="708 Leads" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-emerald-600 block truncate">708 WhatsApp Leads</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">PKR 15.12 / message</span>
+                </div>
+              </div>
+
+              <!-- 2: Future Trades 3,786 Clicks -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="traffic" onclick="openProofModal('assets/page_32.jpg', 'The Future Trades: 3,786 Link Clicks @ $0.00152 (Total Spent: $5.75)')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_32.jpg" alt="3,786 Clicks" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-indigo-600 block truncate">3,786 Link Clicks</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">$0.00152 / click</span>
+                </div>
+              </div>
+
+              <!-- 3: Mountaindale 18,851 Engagements -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="hospitality" onclick="openProofModal('assets/page_15.jpg', 'Mountaindale Guesthouse Skardu: 18,851 Post Engagements @ PKR 0.0487')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_15.jpg" alt="18.85K Engagements" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-amber-600 block truncate">18,851 Engagements</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">PKR 0.0487 / eng</span>
+                </div>
+              </div>
+
+              <!-- 4: Holidays GB Tours Autumn Tour Creative -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="creatives" onclick="openProofModal('assets/page_1.jpg', 'Holidays GB Tours Pakistan: Book Autumn Tour Video Story Ad')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_1.jpg" alt="Autumn Tour Video Ad" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-slate-800 block truncate">Autumn Tour Video Ad</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">Stories & Feed Placement</span>
+                </div>
+              </div>
+
+              <!-- 5: Earn With Us Trading Creative -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="creatives" onclick="openProofModal('assets/page_2.jpg', 'Earn With Us: Daily 3 to 5 Signals Trading Creative')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_2.jpg" alt="Signals Creative" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-slate-800 block truncate">Trading Signals Ad</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">WhatsApp Direct Trigger</span>
+                </div>
+              </div>
+
+              <!-- 6: Greenwood Resort Skardu Creative -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="hospitality" onclick="openProofModal('assets/page_3.jpg', 'Greenwood Resort Skardu: Chat on WhatsApp Booking Ad')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_3.jpg" alt="Greenwood Resort" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-slate-800 block truncate">Greenwood Resort</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">Resort Booking Campaign</span>
+                </div>
+              </div>
+
+              <!-- 7: HIKCAM CCTV Camera Creative -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="creatives" onclick="openProofModal('assets/page_8.jpg', 'HIKCAM CCTV Camera: Smart Home Solution All in One')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_8.jpg" alt="HIKCAM CCTV" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-slate-800 block truncate">HIKCAM Smart Home</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">CCTV & Hardware Package</span>
+                </div>
+              </div>
+
+              <!-- 8: Zeshan Bhai 409 Messaging Leads -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="leads" onclick="openProofModal('assets/page_27.jpg', 'Zeshan Bhai Campaign: 409 Messaging Conversations Started @ PKR 16.18')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_27.jpg" alt="409 Leads" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-emerald-600 block truncate">409 Messaging Leads</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">PKR 16.18 / lead</span>
+                </div>
+              </div>
+
+              <!-- 9: 41.9K Reach Surge Dashboard -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="traffic" onclick="openProofModal('assets/page_20.jpg', 'Professional Dashboard: 41.9K Reach (+3,000% Surge in 90 Days)')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_20.jpg" alt="41.9K Reach" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-indigo-600 block truncate">41.9K Reach Surge</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">+3,000% 90-Day Growth</span>
+                </div>
+              </div>
+
+              <!-- 10: Holidays Skardu 4,997 Engagements -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="hospitality" onclick="openProofModal('assets/page_9.jpg', 'The Holidays Skardu: 4,997 Post Engagements @ PKR 0.23 (Spent: PKR 1,136.82)')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_9.jpg" alt="4,997 Engagements" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-amber-600 block truncate">4,997 Engagements</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">PKR 0.23 / eng</span>
+                </div>
+              </div>
+
+              <!-- 11: Ismail Bhai Hotel 138 Conversations -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="hospitality" onclick="openProofModal('assets/page_15.jpg', 'Ismail Bhai Hotel 4th: 138 Messaging Conversations Started @ PKR 18.63')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_15.jpg" alt="138 Hotel Leads" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-slate-800 block truncate">138 Hotel Inquiries</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">PKR 18.63 / conv</span>
+                </div>
+              </div>
+
+              <!-- 12: HIKCAM CCTV 17 Leads -->
+              <div class="gal-item real-img-card rounded-2xl overflow-hidden border border-slate-200" data-type="leads" onclick="openProofModal('assets/page_28.jpg', 'HIKCAM CCTV Camera Campaign: 17 Messaging Inquiries @ PKR 15.08')">
+                <div class="aspect-[3/4] bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <img src="assets/page_28.jpg" alt="17 CCTV Leads" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-2.5 bg-white text-left">
+                  <span class="text-[10px] font-bold text-emerald-600 block truncate">17 CCTV Leads</span>
+                  <span class="text-[10px] text-slate-400 font-mono block">PKR 15.08 / lead</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Download Full 42-Page PDF Banner -->
+        <div class="luxury-card p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-indigo-50 via-white to-indigo-50 border border-indigo-200 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div class="flex items-center gap-4 text-center sm:text-left">
+            <div class="w-12 h-12 rounded-2xl bg-red-100 text-red-600 flex items-center justify-center text-2xl shrink-0 mx-auto">
+              <i class="fa-solid fa-file-pdf"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-slate-900 text-lg">Complete 42-Page Official Proofs Dossier</h4>
+              <p class="text-xs text-slate-600 mt-0.5">Contains all 42 Meta Ads Manager campaign screenshots, spend receipts, and performance graphs in original high quality.</p>
+            </div>
+          </div>
+          <a href="assets/ads-results-proof.pdf" download class="px-6 py-3.5 rounded-xl primary-cta text-white font-bold text-xs uppercase tracking-wider flex items-center gap-2 shrink-0">
+            <i class="fa-solid fa-download"></i> Download Full PDF (5.2 MB)
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= RECRUITER CONTACT FOOTER ================= -->
+    <section id="contact" class="py-20 px-6 bg-slate-900 text-white relative">
+      <div class="max-w-4xl mx-auto text-center space-y-8">
+        
+        <div class="space-y-3">
+          <span class="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-bold uppercase tracking-wider">
+            Get In Touch
+          </span>
+          <h2 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
+            Ready to Connect & Discuss Growth?
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
+            I am available for full-time remote roles, paid media buying contracts, and performance marketing consulting.
+          </p>
+        </div>
+
+        <!-- 3 Contact Channels -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+          
+          <!-- WhatsApp -->
+          <a href="https://wa.me/923260512817" target="_blank" class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-emerald-500 flex flex-col items-center justify-center space-y-2 transition-all group">
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <span class="text-xs text-slate-400 font-semibold uppercase">WhatsApp Chat</span>
+            <span class="text-sm font-bold text-white group-hover:text-emerald-300">+92 326 0512817</span>
+            <span class="text-[11px] text-emerald-400">1-Click Message →</span>
+          </a>
+
+          <!-- Email -->
+          <div onclick="copyToClipboard('ansarabbas8297@gmail.com', 'Email copied!')" class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-indigo-400 flex flex-col items-center justify-center space-y-2 transition-all cursor-pointer group">
+            <div class="w-12 h-12 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <span class="text-xs text-slate-400 font-semibold uppercase">Direct Email</span>
+            <span class="text-sm font-bold text-white group-hover:text-indigo-300 truncate max-w-full">ansarabbas8297@gmail.com</span>
+            <span class="text-[11px] text-indigo-400">Click to copy →</span>
+          </div>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/ansarabbas.janjua.7?mibextid=ZbWKwL" target="_blank" class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-blue-400 flex flex-col items-center justify-center space-y-2 transition-all group">
+            <div class="w-12 h-12 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <span class="text-xs text-slate-400 font-semibold uppercase">Facebook Profile</span>
+            <span class="text-sm font-bold text-white group-hover:text-blue-300">ansarabbas.janjua.7</span>
+            <span class="text-[11px] text-blue-400">View profile →</span>
+          </a>
+
+        </div>
+
+        <div class="pt-4 flex flex-wrap justify-center gap-4">
+          <a href="mailto:ansarabbas8297@gmail.com?subject=Job%20Opportunity%20-%20Paid%20Acquisition%20Specialist" class="px-8 py-3.5 rounded-xl primary-cta text-white font-bold text-sm uppercase tracking-wider flex items-center gap-2">
+            <i class="fa-solid fa-envelope-circle-check"></i> Send Job Opportunity
+          </a>
+          <button onclick="window.print()" class="px-6 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-sm border border-slate-700 transition-all flex items-center gap-2">
+            <i class="fa-solid fa-print"></i> Print Clean PDF
+          </button>
+        </div>
+
+        <div class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+          <div>
+            © 2026 Ansar Abbas Hadi. All verified professional rights reserved.
+          </div>
+          <div class="flex items-center gap-3">
+            <span><i class="fa-solid fa-location-dot text-indigo-400 mr-1"></i> Layyah, Punjab, Pakistan</span>
+            <span>•</span>
+            <span class="text-indigo-400">Zero Hallucinations Verified</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= INSPECTION LIGHTBOX MODAL ================= -->
+  <div id="proof-modal" class="fixed inset-0 z-[200] bg-black/85 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white max-w-3xl w-full rounded-3xl p-6 border border-slate-200 shadow-2xl relative space-y-4 max-h-[95vh] flex flex-col">
+      
+      <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+        <div>
+          <h3 id="modal-title" class="text-base font-bold text-slate-900">Verified Document Preview</h3>
+          <span class="text-xs text-indigo-600 font-medium">Official Record</span>
+        </div>
+        <button onclick="closeModal()" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 flex items-center justify-center transition-colors">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Preview Image Area -->
+      <div class="flex-1 overflow-auto flex items-center justify-center p-2 bg-slate-50 rounded-2xl border border-slate-200 min-h-[400px]">
+        <img id="modal-image" src="" alt="Document Preview" class="max-w-full max-h-[68vh] object-contain rounded-xl shadow-md" />
+      </div>
+
+      <!-- Bottom Controls -->
+      <div class="flex items-center justify-between pt-2">
+        <a href="assets/ads-results-proof.pdf" download class="px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold flex items-center gap-2 border border-slate-200">
+          <i class="fa-solid fa-file-pdf text-red-500"></i> Download 42-Page PDF
+        </a>
+        <button onclick="closeModal()" class="px-6 py-2 rounded-xl primary-cta text-white text-xs font-bold uppercase tracking-wider">
+          Close Preview
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= REALISTIC WHATSAPP SUPPORT BUTTON (LEFT SIDE) ================= -->
+  <aside aria-label="Support and Quick Contact" class="fixed bottom-6 left-6 z-[180] flex items-center group">
+    <a href="https://wa.me/923260512817?text=Hi%20Ansar,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project/opportunity." 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="flex items-center gap-3 bg-white/95 hover:bg-white backdrop-blur-md pl-2 pr-4 py-2 rounded-full shadow-lg shadow-emerald-950/10 border border-slate-200/90 hover:border-emerald-400 hover:shadow-xl hover:shadow-emerald-500/15 transition-all duration-300 group hover:-translate-y-1"
+       aria-label="Direct WhatsApp Support with Ansar Abbas Hadi">
+      
+      <!-- WhatsApp Icon with Live Online Ping -->
+      <div class="relative w-11 h-11 rounded-full bg-emerald-500 group-hover:bg-emerald-600 text-white flex items-center justify-center text-2xl shadow-md shadow-emerald-500/35 transition-transform duration-300 group-hover:scale-105 shrink-0">
+        <i class="fa-brands fa-whatsapp"></i>
+        <!-- Live Ping Indicator -->
+        <span class="absolute -top-0.5 -right-0.5 flex h-3.5 w-3.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-3.5 w-3.5 bg-emerald-500 border-2 border-white"></span>
+        </span>
+      </div>
+      
+      <!-- Support & Status Label -->
+      <div class="text-left leading-tight hidden sm:block">
+        <div class="flex items-center gap-1.5">
+          <span class="text-xs font-bold text-slate-800 group-hover:text-emerald-600 transition-colors">Direct WhatsApp</span>
+          <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+        </div>
+        <p class="text-[11px] text-slate-500 font-medium">Quick Support • Online</p>
+      </div>
+
+    </a>
+  </aside>
+
+  <!-- ================= TOAST NOTIFICATION ================= -->
+  <div id="toast" class="fixed bottom-6 right-6 z-[250] hidden opacity-0 transition-opacity duration-300 bg-slate-900 text-white text-xs font-semibold px-4 py-3 rounded-xl shadow-xl flex items-center gap-2 border border-slate-700">
+    <i class="fa-solid fa-circle-check text-emerald-400"></i>
+    <span id="toast-message">Copied to clipboard</span>
+  </div>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script>
+    function openResumeModal() {
+      document.getElementById('modal-title').innerText = 'Official Curriculum Vitae Scan';
+      document.getElementById('modal-image').src = 'assets/resume-scan.jpg';
+      document.getElementById('proof-modal').classList.remove('hidden');
+    }
+
+    function openProofModal(imgSrc, title) {
+      document.getElementById('modal-title').innerText = title || 'Verified Campaign Receipt';
+      document.getElementById('modal-image').src = imgSrc;
+      document.getElementById('proof-modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('proof-modal').classList.add('hidden');
+    }
+
+    function copyToClipboard(text, message) {
+      navigator.clipboard.writeText(text).then(() => {
+        const toast = document.getElementById('toast');
+        document.getElementById('toast-message').innerText = message;
+        toast.classList.remove('hidden');
+        setTimeout(() => {
+          toast.classList.remove('opacity-0');
+        }, 10);
+
+        setTimeout(() => {
+          toast.classList.add('opacity-0');
+          setTimeout(() => {
+            toast.classList.add('hidden');
+          }, 300);
+        }, 3000);
+      });
+    }
+
+    function filterGallery(category) {
+      const items = document.querySelectorAll('.gal-item');
+      const buttons = document.querySelectorAll('.gal-btn');
+      
+      buttons.forEach(btn => {
+        if (btn.getAttribute('data-gal') === category) {
+          btn.className = 'gal-btn px-3 py-1.5 rounded-lg bg-indigo-600 text-white font-semibold shadow-sm transition-all text-xs';
+        } else {
+          btn.className = 'gal-btn px-3 py-1.5 rounded-lg bg-slate-100 text-slate-600 hover:text-slate-900 transition-all text-xs font-semibold';
+        }
+      });
+
+      items.forEach(item => {
+        const type = item.getAttribute('data-type');
+        if (category === 'all' || type === category) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Close modal on Escape or Backdrop click
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+    document.getElementById('proof-modal')?.addEventListener('click', (e) => {
+      if (e.target.id === 'proof-modal') closeModal();
+    });
+  </script>
+</body>
+</html>

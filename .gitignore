@@ -1,0 +1,5 @@
+cloudflared.exe
+cloudflare.log
+mingit/
+mingit.zip
+*.log
